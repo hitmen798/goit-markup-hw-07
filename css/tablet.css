@@ -1,15 +1,55 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 764px;
+    max-width: 736px;
   }
-  .info {
-      padding-top: 96px;
-      padding-bottom: 96px;
+  
+  .info-list {
+    display: flex;
+    flex-direction: row;
+    gap: 72px 24px;
   }
+  .team-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  .team-item {
+    width: calc((100% - 24) / 2); 
+  } 
+  .castomers-list {
+    width: 584px;
+    margin: auto;
+    display: flex;
+
+  }
+  .castomers-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 48px) / 3);
+    flex-basis: 168px;
+  }
+
+    
+
+
+
+
+
+
+
+
+
+
 }
+
 
 @media screen and (min-width: 768px), (max-width: 1199px){
     .container-sm {
         max-width: 736px;
+        padding-right: 0;
+        padding-left: 0;
     }
 }

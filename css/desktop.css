@@ -1,16 +1,80 @@
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1156px;
+    max-width: 1128px;
   }
   .info {
       padding-top: 120px;
       padding-bottom: 120px;
   }
+  .info-list {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .info-item {
+    width: 264px;
+    width: calc((100% - 72) / 4);
+  }
+  .info-block {
+    background: #f4f4fd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+  }
+  .info-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    display: block;
+  }
+  .info-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-list {
+    display: flex;
+    gap: 24px;
+  }
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .examples {
+    padding: 120px 0;
+    display: block;
+  }
+  .castomers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .castomers-item {
+    /* width: 168px; */
+    width: calc((100% - 120px) / 6);
+  }
+  .castomers-list {
+    width: 1128px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
 
 
 
-/* }
-@media screen and (max-width: 1199px){
+
+
+
+
+}
+/* @media screen and (max-width: 1199px){
     .info-block-icon {
         
     }

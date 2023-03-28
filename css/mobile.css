@@ -1,11 +1,21 @@
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 424px;
+    max-width: 398px;
   }
-.info {
-    padding-top: 96px;
-    padding-bottom: 96px;
+  .castomers-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.castomers-item {
+  width: calc((100% - 16px) / 2);
 }
+
+
+
+  
+
 
 
 }
