@@ -8,14 +8,7 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-.castomers-item {
-  width: calc((100% - 16px) / 2);
-}
-
-
-
-  
-
-
-
+  .castomers-item {
+    width: calc((100% - 16px) / 2);
+  }
 }

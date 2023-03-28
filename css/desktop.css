@@ -3,8 +3,8 @@
     max-width: 1128px;
   }
   .info {
-      padding-top: 120px;
-      padding-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .info-list {
     flex-direction: row;
@@ -66,13 +66,6 @@
     justify-content: center;
     gap: 24px;
   }
-
-
-
-
-
-
-
 }
 /* @media screen and (max-width: 1199px){
     .info-block-icon {
