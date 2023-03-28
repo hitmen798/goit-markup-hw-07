@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1158px;
+    max-width: 1156px;
   }
   .info {
       padding-top: 120px;
@@ -9,4 +9,9 @@
 
 
 
-}
+/* }
+@media screen and (max-width: 1199px){
+    .info-block-icon {
+        
+    }
+} */
