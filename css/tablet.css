@@ -6,7 +6,16 @@
   .info-list {
     display: flex;
     flex-direction: row;
-    gap: 72px 24px;
+    flex-wrap: wrap;
+    gap: 72px 24px; 
+    padding: 0;
+  }
+  .info-item {
+    width: 356px; 
+  }
+  .info-subtitle {
+    display: block;
+    font-weight: 700;
   }
   .team-list {
     display: flex;
