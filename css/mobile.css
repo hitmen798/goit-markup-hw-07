@@ -11,4 +11,8 @@
   .castomers-item {
     width: calc((100% - 16px) / 2);
   }
-}
+  .modal {
+    width: 360px;
+    height: 538px;
+  }
+  }

@@ -805,8 +805,9 @@ p {
   transition: opacity 0.25s linear, visibility 0.25s linear;
 }
 .modal {
-  width: 360px;
-  height: 536px;
+  min-width: 272px;
+  width: 88%;
+  /* height: 536px; */
   position: absolute;
   left: 50%;
   top: 50%;
@@ -815,7 +816,7 @@ p {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  padding: 24px;
+  padding: 24px 16px;
 }
 .modal-close-svg {
   width: 8px;
@@ -835,6 +836,7 @@ p {
   margin-left: auto;
   color: #000;
   margin-bottom: 24px;
+  margin-right: 8px;
 }
 .modal-close:hover,
 .modal-close:focus {
