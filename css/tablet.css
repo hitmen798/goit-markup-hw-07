@@ -2,7 +2,24 @@
   .container {
     max-width: 736px;
   }
-
+  .hero {
+    padding: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tablet.jpg);
+  }
+  .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 36px;
+    width: 496px;
+    height: 120px;
+  }
   .info-list {
     display: flex;
     flex-direction: row;

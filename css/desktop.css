@@ -2,6 +2,16 @@
   .container {
     max-width: 1128px;
   }
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
   .info {
     padding-top: 120px;
     padding-bottom: 120px;

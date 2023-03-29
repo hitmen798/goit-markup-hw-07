@@ -193,12 +193,12 @@ p {
   gap: 40px;
 }
 .hero {
-  padding: 188px 0;
+  padding: 112px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office-mobile.jpg);
   /* background-color: rgba(46, 47, 66, 0.7); */
   background-repeat: no-repeat;
   background-position: center;
@@ -213,17 +213,17 @@ p {
   flex-direction: column;
 }
 .hero-title {
-  /* font-family: 'Roboto'; */
+  color: var(--white-color);
+  /* font-family: "Roboto"; */
   /* font-style: normal; */
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
+  font-size: 36px;
+  line-height: 1,11;
   letter-spacing: 0.02em;
-  color: var(--white-color);
-  width: 496px;
-  height: 120px;
-  margin: 0 0 48px 0;
+  width: 320px;
+  height: 80px;
+  /* margin: 0 0 48px 0; */
+  margin-bottom: 72px;
 }
 .hero-button {
   font-family: "Roboto";
