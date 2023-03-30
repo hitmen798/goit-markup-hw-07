@@ -690,6 +690,9 @@ p {
   display: flex;
   flex-direction: column;
   gap: 72px;
+  /* margin-left: 16px;
+  margin-right: 16px; */
+  width: calc((100% - 32px) / 1);
 }
 .footer-container-2 {
   /* margin-left: 120px; */
