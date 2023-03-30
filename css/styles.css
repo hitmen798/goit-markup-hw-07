@@ -218,7 +218,7 @@ p {
   /* font-style: normal; */
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,11;
+  line-height: 1, 11;
   letter-spacing: 0.02em;
   width: 320px;
   height: 80px;
@@ -644,7 +644,8 @@ p {
 }
 .footer {
   background: var(--text-color);
-  padding: 100px 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .footer-slogan {
   /* font-family: 'Roboto';
@@ -655,8 +656,8 @@ p {
   letter-spacing: 0.02em;
   color: #e7e9fc;
   width: 264px;
-  margin: 16px 0 0;
   padding: 0;
+  margin: auto;
 }
 .footer-logo {
   font-family: "Raleway";
@@ -665,11 +666,13 @@ p {
   font-size: 18px;
   line-height: 1.33;
   display: flex;
+  justify-content: center;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
   padding: 0;
+  margin-bottom: 16px;
 }
 .footer-logo-studio {
   font-family: "Raleway";
@@ -685,13 +688,17 @@ p {
 }
 .footer-container {
   display: flex;
-  /* gap: 80px; */
+  flex-direction: column;
+  gap: 72px;
 }
 .footer-container-2 {
-  margin-left: 120px;
+  /* margin-left: 120px; */
 }
 .footer-container-3 {
-  margin-left: 80px;
+  /* margin-left: 80px; */
+}
+.footer-container-4 {
+  /* margin-left: 80px; */
 }
 .footer-title {
   /* font-family: "Roboto"; */
@@ -702,11 +709,13 @@ p {
   /* letter-spacing: 0.02em; */
   color: var(--white-color);
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
 }
 .footer-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-item {
   height: 40;
@@ -744,10 +753,13 @@ p {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
 }
 .footer-form-wraper {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  /* gap: 24px; */
 }
 .footer-form-input {
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -755,18 +767,19 @@ p {
   border-radius: 4px;
   background-color: #2e2f42;
   height: 24px;
-  width: 232px;
+  /* width: 100%; */
   padding: 8px 16px;
+  /* margin-left: 16px;
+  margin-right: 16px; */
 }
 .footer-form-sumbit {
   background: #4d5ae5;
   border-radius: 4px;
-  /* display: flex; */
   border: none;
   padding: 8px 24px;
   color: var(--white-color);
   height: 40px;
-  min-width: 165px;
+  width: 165px;
   gap: 16px;
   font-family: "Roboto";
   font-style: normal;
@@ -777,6 +790,9 @@ p {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* .footer-button {
   font-family: "Roboto";
