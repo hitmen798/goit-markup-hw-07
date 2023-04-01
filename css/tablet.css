@@ -2,8 +2,17 @@
   .container {
     max-width: 736px;
   }
-  .header-button-svg {
+  .header-list {
+    display: flex;
+  }
+  .header-contacts {
+    display: flex;
+  }
+  .header-button {
     display: none;
+  }
+  .header-logo {
+    margin-right: 120px;
   }
   .hero {
     background-image: linear-gradient(
@@ -19,7 +28,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     margin-bottom: 36px;
-    width: 496px;
+    width: 494px;
     height: 120px;
   }
   .info-list {

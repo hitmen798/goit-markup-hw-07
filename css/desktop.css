@@ -7,6 +7,9 @@
     align-items: center;
     width: 1128px;
   }
+  .header-logo {
+    margin-right: 76px;
+  }
   .header-nav {
     /* display: flex;
     align-items: center; */
@@ -24,7 +27,9 @@
       url(../images/people-office.jpg);
   }
   .hero-title {
+    max-width: 496px;
     margin-bottom: 48px;
+    font-size: 56px;
   }
   .info {
     padding-top: 120px;
