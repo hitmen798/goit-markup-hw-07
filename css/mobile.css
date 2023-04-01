@@ -15,4 +15,12 @@
     width: 360px;
     height: 538px;
   }
+}
+@media screen and (max-width: 427) {
+  .modal {
+    width: calc(100% - 2 * 15px);
+    overflow-y: auto;
+    max-height: 576px;
+    height: 90%;
   }
+}

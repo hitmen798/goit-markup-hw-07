@@ -2,6 +2,9 @@
   .container {
     max-width: 736px;
   }
+  .header-button-svg {
+    display: none;
+  }
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -76,7 +79,6 @@
     /* margin-left: 120px; */
   }
   .footer-container-4 {
-
   }
   .footer-form-wraper {
     flex-direction: row;
@@ -100,26 +102,6 @@
   .footer-form-sumbit {
     margin: 0;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 @media screen and (min-width: 768px), (max-width: 1199px) {
