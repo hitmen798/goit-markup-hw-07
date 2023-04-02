@@ -2,6 +2,13 @@
   .container {
     max-width: 1128px;
   }
+  .header {
+    padding: 24px 0;
+  }
+  .header-contacts {
+    flex-direction: row;
+    gap: 40px;
+  }
   .header-nav-wrap {
     display: flex;
     align-items: center;
@@ -13,6 +20,12 @@
   .header-nav {
     /* display: flex;
     align-items: center; */
+  }
+  .header-tel {
+    font-size: 16px;
+  }
+  .header-mail {
+    font-size: 16px;
   }
   .address {
     margin-left: auto;
@@ -38,6 +51,7 @@
   .info-list {
     flex-direction: row;
     gap: 24px;
+    min-width: 1128px;
   }
   .info-item {
     width: 264px;

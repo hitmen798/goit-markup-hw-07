@@ -7,6 +7,8 @@
   }
   .header-contacts {
     display: flex;
+    flex-direction: column;
+    gap: 0;
   }
   .header-button {
     display: none;
@@ -23,12 +25,12 @@
   }
   .hero-title {
     font-weight: 700;
-    font-size: 56px;
+    font-size: 55px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     margin-bottom: 36px;
-    width: 494px;
+    max-width: 494px;
     height: 120px;
   }
   .info-list {
@@ -37,6 +39,7 @@
     flex-wrap: wrap;
     gap: 72px 24px;
     padding: 0;
+    min-width: 736px;
   }
   .info-item {
     width: 356px;
